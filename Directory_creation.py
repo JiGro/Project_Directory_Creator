@@ -15,17 +15,17 @@ def copy(path):
         shutil.copy(f, path)
 
 #3. Rename files in new path
-def rename(path,old,project_name):
+def rename(path,old_string,new_string):
     for f in os.listdir(path):
         os.rename(os.path.join(path, f),
-                  os.path.join(path, f.replace(old, project_name)))
+                  os.path.join(path, f.replace(old_string, new_string)))
 
 #Main
 #4. Input
 project_name = input("What is the name of the project? (E.g. align with existing naming conventions)")
-path = 'C:/.../'+project_name
-old = "XXX"
+new_path = 'C:/.../'+project_name
+dummy_in_string = "XXX"
 #5. Functions
-directory(path)
-copy(path)
-rename(path,old,project_name)
+directory(new_path)
+copy(new_path)
+rename(new_path,dummy_in_string,project_name)
