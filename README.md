@@ -9,6 +9,7 @@ This is why I came up with this little .py script to not just save time, but als
 
 ***
 🛑🛑🛑 **DISCLAIMER** 🛑🛑🛑
+
 Prior to executing the script adapt the following code lines: 
 
 1.) Update the placeholder template _files_ paths but make sure the templates contain a placeholder so that the project name can be inserted.
