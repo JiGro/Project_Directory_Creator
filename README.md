@@ -8,7 +8,7 @@
 This is why I came up with this little .py script to not just save time, but also perfectly organize my project folder structure. Before starting a certain project type, I just set the project name as well as the naming convention and the script does the rest for me.
 
 ***
-🛑🛑🛑 **DISCLAIMER** 🛑🛑🛑
+🛑🛑🛑 **BE AWARE** 🛑🛑🛑
 
 Prior to executing the script adapt the following code lines: 
 
